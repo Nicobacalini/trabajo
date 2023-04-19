@@ -280,6 +280,7 @@ body {
 }
 
 .mail{
+    margin-bottom: 10vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -292,6 +293,7 @@ body {
 }
 
 .form{
+    margin-top: 5vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -401,7 +403,7 @@ body {
 
 .responsivenav {display: none;}
 
-@media all and (min-width:0px) and (max-width: 600px)
+@media all and (min-width:0px) and (max-width: 720px)
 {
 
     .navbar-list {display: none;}
