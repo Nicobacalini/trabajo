@@ -19,4 +19,4 @@ La página es completamente responsiva y cuenta con un diseño limpio y moderno.
 
 * Lionel Perafan
 * Nicolas Bacalini
-* -
+* Alan Seoane
