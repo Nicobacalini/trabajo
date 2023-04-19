@@ -285,12 +285,68 @@ body {
     justify-content: center;
     height: 100vh;
     color: #ccc;
-
 }
 
-.mail *{
+.mail h3{
     font-size: 8vh;
 }
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 4vh;
+}
+
+.form div input, .form div textarea{
+    padding: 1vh;
+    background-color: transparent;
+    color: #ccc;
+    border: none;
+    border-bottom: 0.5vh solid greenyellow;
+    transition: all 0.3s;
+    border-radius: 1vh;
+}
+
+.form div input:hover, .form div textarea:hover{
+
+    background-color: rgb(34, 34, 34, 0.8);
+}
+
+.sendBTN{
+    color: #ccc;
+    border-radius: 1vh;
+    font-size: 3.5vh;
+    padding: 1vh 5vh;
+    background-color: rgb(18, 209, 18);
+    transition: all 0.3s;
+}
+
+.sendBTN:hover{
+    transform: scale(1.1);
+}
+
+.fEmail *{
+    font-size: 3vh;
+    width: 30vw;
+}
+
+.fTitle *{
+    font-size: 3vh;
+    width: 30vw;
+}
+
+.formTitle {
+    font-size: 4vh;
+}
+
+.fTA textarea{
+    width: 30vw;
+    height: 25vh;
+}
+
 
 .email{
     text-decoration: underline;
@@ -342,3 +398,428 @@ body {
 .seemorebtn:visited{
     color: #ccc;
 }
+
+.responsivenav {display: none;}
+
+@media all and (min-width:0px) and (max-width: 600px)
+{
+
+    .navbar-list {display: none;}
+    .responsivenav {
+        display: block;
+        height: 0px; 
+        width: 100%;
+        margin-top: 0px;
+         background-color: aqua;}
+
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+    }
+    
+    body {
+        background-image: linear-gradient(to left, green, black);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+
+    .navbar-list img {
+        max-height: 10vh;
+        margin-left: 5vh;
+        transition: transform 0.3s;
+    }
+    
+    .navbar-list img:hover {
+        transform: scale(1.2);
+    }
+    */
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+    }
+
+
+
+
+    .nav__responsive-button-container {position: absolute;
+        width: 100% ;
+        font-size: 40px;
+        background-color: rgb(12, 17, 13);
+        margin-top: -60px;
+        z-index: 100;
+}
+
+.nav__responsive-button {
+    padding: 6px 20px;
+    text-align: right;
+    width: 100%;
+    color: #6cae00;
+}
+
+.nav__responsive-ul {
+            display: block;
+            margin-top: 60px;
+            height: 60px;}
+   .nav__li-container {
+                 position: relative;
+                 top: -1000px;
+                 height: calc(100vh - 60px);
+                 background: linear-gradient(to left, green, black);
+                 transition: all 1s;
+                 z-index: 1;
+                 width: 80%;
+                }
+
+.nav__responsive-ul:hover > .nav__li-container {
+    top: 0px;}
+
+
+
+
+
+ .nav__responsive-li {width: 100%;
+                      padding: 9px 28px;}
+.nav__responsive-li i {
+     box-sizing: border-box;
+     text-align: center;
+     margin-right: 5px;
+     width: 30px;
+     color: #040b0b;}
+
+.nav__responsive-li a {color: #ffffff;
+                       font-size: 30px;}
+
+
+
+.container {width: 100%;}
+
+                       
+.presentacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.conteiner-one {
+    text-align: center;
+}
+
+.conteiner-one button {
+    background-color: rgb(18, 209, 18);
+    height: 8vh;
+    width: 12vw;
+    border: none;
+    border-radius: 1vh;
+    color: #eee;
+    font-weight: bolder;
+    font-size: 2.8vh;
+    margin-top: 5vh;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.conteiner-one button:hover{
+    transform: scale(1.1);
+}
+
+.container-proyectos{width: 100%;}
+
+
+.container-card-section {
+    display: flex;
+    justify-content:baseline;
+    width: 500px;
+}
+
+.cards {
+    padding: 3vh;
+    border-radius: 2vh;
+    border-color: #fff;
+    margin: 5vh;
+    width: auto;
+}
+
+.container-proyectos h3 {
+    font-size: auto;
+}
+
+.container-proyectos button {
+    background-color: rgb(18, 209, 18);
+    height: 8vh;
+    width: 25%;
+    border: none;
+    border-radius: 1vh;
+    color: #eee;
+    font-weight: bolder;
+    font-size: 2.8vh;
+    margin-top: 5vh;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.container-proyectos button:hover{
+    transform: scale(1.1);
+}
+
+.mail div a{
+    color: rgb(1, 241, 1);
+}
+
+.footer-nav {width: 100%;}
+
+.footer-container {
+    background-color: black;
+}
+
+.footer-nav li {
+    margin: 5vh;
+    text-align: center;
+}
+
+.footer-nav li a i {
+    font-size: 5vh;
+    margin-right: 2vh;
+}
+
+.footer-nav,.bi {
+    color: #fff;
+}
+
+/*// --------------------------------------------------- //*/
+
+*{
+    font-family: 'Nunito', sans-serif;
+}
+
+.presentacion{
+    height: 110vh;
+    color: #ccc;
+}
+
+.presentacion h2{
+    font-size: 5vh;
+    font-weight: bolder;
+    color: #ccc;
+}
+
+.presentacion h1{
+    font-size: 10vh;
+    color: greenyellow ;
+}
+
+.conteiner-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5vh;
+}
+
+.conteiner-one h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8vh;
+    border-bottom: 0.5vh solid greenyellow;
+    margin-bottom: 5vh;
+    color: #ccc;
+}
+
+.conteiner-one p{
+    font-size: 3vh;
+    color: #ccc;
+}
+
+.lenguajes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ccc;
+}
+
+.lenguajes h3{
+    font-size: 8vh;
+    border-bottom: 0.5vh solid greenyellow;
+}
+
+.icon-lenguajes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconlenguaje{
+    border-bottom: 0.8vh solid greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2vh;
+    width: 15vw;
+    height: 35vh;
+    background-color: #ccc;
+    transition: all 0.3s;
+}
+
+.iconlenguaje:hover{
+    transform: scale(1.1);
+}
+
+.icon-lenguajes div i{
+    font-size: 13vw;
+    padding: 5vh 2vh;
+    color: #ccc;
+    filter: invert(1);
+}
+
+.section-container-cards{
+    color: #ccc;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-container-cards h3{
+    padding-bottom: 1vh;
+    border-bottom: 0.5vh solid greenyellow;
+    font-family: 'Nunito', sans-serif;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    border-radius: 1vh;
+    border: 0.5vh solid #ccc;
+    color: #ccc;
+    text-align: left;
+    transition: all 0.3s;
+}
+
+.cards:hover{
+    color: #222;
+    background-color: #ccc;
+}
+
+
+
+.proyector-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ccc;
+
+}
+.proyector-img h3{
+    border-bottom: 0.5vh solid greenyellow;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 2vh;
+}
+
+.imagenes-arriba img {
+    height: 35vh;
+    margin-bottom: 1vh;
+}
+
+.imagenes-abajo img {
+    height: 32.3vh;
+}
+
+.mail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    color: #ccc;
+    ;
+
+}
+
+.mail *{
+    font-size: 40px;
+}
+
+.email{
+    text-decoration: underline;
+    ;
+
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.footer-nav *{
+    color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3vh;
+    margin: 0;
+    padding: 0;
+    margin-left: 1vh;
+}
+
+.liItemNavBar, .liItemNavBar a{
+    transition: all 0.3s;
+}
+
+.liItemNavBar:hover{
+    transform: scale(1.1);
+}
+
+.liItemNavBar a:hover{
+    border-bottom: 0.5vh solid greenyellow;
+}
+
+.container-logo img{
+    width: 15vw;
+}
+
+.navbar-list{
+    margin-top: 2vh;
+}
+
+.seemorebtn:link{
+    color: #ccc;
+}
+
+.seemorebtn:visited{
+    color: #ccc;
+}
+
+.logoadidas {display: none;}
+
+.fotterp {width: 20px;
+         padding: 0px 20px ;}
+
+.fotterp2 {position: relative;
+left: 15px;}
+
+.icon1{
+    position: relative;
+    right: 45px;}
+.icon2 {
+    position: relative;
+right: 15px;
+}
+
+}
+
+
