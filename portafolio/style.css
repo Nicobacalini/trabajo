@@ -285,11 +285,68 @@ body {
     justify-content: center;
     height: 100vh;
     color: #ccc;
-
+    margin-bottom: 5vh;
 }
 
-.mail *{
+.mail h3{
     font-size: 8vh;
+}
+
+.form{
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 4vh;
+}
+
+.form div input, .form div textarea{
+    padding: 1vh;
+    background-color: transparent;
+    color: #ccc;
+    border: none;
+    border-bottom: 0.5vh solid greenyellow;
+    transition: all 0.3s;
+    border-radius: 1vh;
+}
+
+.form div input:hover, .form div textarea:hover{
+
+    background-color: rgb(34, 34, 34, 0.8);
+}
+
+.sendBTN{
+    color: #ccc;
+    border-radius: 1vh;
+    font-size: 3.5vh;
+    padding: 1vh 5vh;
+    background-color: rgb(18, 209, 18);
+    transition: all 0.3s;
+}
+
+.sendBTN:hover{
+    transform: scale(1.1);
+}
+
+.fEmail *{
+    font-size: 3vh;
+    width: 30vw;
+}
+
+.fTitle *{
+    font-size: 3vh;
+    width: 30vw;
+}
+
+.formTitle {
+    font-size: 4vh;
+}
+
+.fTA textarea{
+    width: 30vw;
+    height: 25vh;
 }
 
 .email{
