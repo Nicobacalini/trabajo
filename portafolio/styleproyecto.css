@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: linear-gradient(to left, green, black);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.navbar-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    background-color: none;
+}
+
+.navbar-list ul {
+    display: flex;
+    list-style: none;
+    padding: 0vh 10vh;
+}
+
+.navbar-list ul li {
+    margin: 0 10vh;
+}
+
+.navbar-list ul li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.navbar-list .verde a{
+    color: greenyellow;
+}
+
+.navbar-list img {
+    max-height: 10vh;
+    margin-left: 5vh;
+    transition: transform 0.3s;
+}
+
+.navbar-list img:hover {
+    transform: scale(1.2);
+}
+
+.footer-container {
+    background-color: black;
+}
+
+.footer-nav li {
+    margin: 5vh;
+    text-align: center;
+}
+
+.footer-nav li a i {
+    font-size: 5vh;
+    margin-right: 2vh;
+}
+
+.footer-nav,.bi {
+    color: #fff;
+}
+
+/*// --------------------------------------------------- //*/
+
+*{
+    font-family: 'Nunito', sans-serif;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-nav *{
+    color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3vh;
+    margin: 0;
+    padding: 0;
+    margin-left: 1vh;
+}
+
+.liItemNavBar, .liItemNavBar a{
+    transition: all 0.3s;
+}
+
+.liItemNavBar:hover{
+    transform: scale(1.1);
+}
+
+.liItemNavBar a:hover{
+    border-bottom: 0.5vh solid greenyellow;
+}
+
+.container-logo img{
+    width: 15vw;
+}
+
+.navbar-list{
+    margin-top: 2vh;
+}
+
+.cartas{
+    display: flex;
+    flex-direction: column;
+    margin: 15vh 5vh;
+}
+
+.card1, .card2, .card3, .card4{
+    margin-top: -8vh;
+    margin-bottom: 5vh;
+}
+
+.card2{
+    align-self: flex-end;
+}
+
+.card4{
+    align-self: flex-end;
+}
+
+.card-content{
+    color: #ccc;
+}
+
+.card-content img{
+    border-radius: 2vh;
+    width: 35vw;
+    margin-bottom: 2vh;
+}

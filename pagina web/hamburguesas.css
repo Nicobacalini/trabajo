@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.navbar-list {
+  display: flex;
+  font-family: 'Passion One', cursive;
+  margin: 0 auto;
+  background-color: none;
+  font-weight: bold;
+}
+
+
+.navbar-list ul {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Passion One', cursive;
+  margin: 0 auto;
+  background-color: none;
+}
+
+.navbar-list ul li {
+
+  margin: 40px;
+}
+
+
+
+.naranja {
+  background-color: rgb(255, 102, 0);
+  height: 40px;
+  width: 130px;
+  border-radius: 30px;
+  color: black;
+  font-size: 15px;
+  margin-top: 35px;
+  cursor: pointer;
+  font-family: 'Passion One', cursive;
+
+}
+
+.blanco {
+  background-color: rgb(255, 255, 255);
+  height: 40px;
+  width: 130px;
+
+  border-radius: 30px;
+  color: black;
+  font-size: 15px;
+  margin-top: 35px;
+  cursor: pointer;
+  font-family: 'Passion One', cursive;
+
+}
+
+.navbar-list ul li a {
+
+  color: black;
+  text-decoration: none;
+}
+
+
+
+.navbar-list img {
+  height: 100px;
+  margin-left: 50px;
+  margin-top: 5px;
+  transition: 2s;
+}
+
+
+.navbar-list img:hover {
+  transform: scale(1.2);
+}
+
+.conteiner-one h1 {
+  font-family: 'Passion One', cursive;
+  font-size: 60px
+}
+
+.titulo{
+  padding-top: 40px;
+  padding-bottom: 25px;
+}
+
+.card-menu h2 {
+  font-size: 35px;
+}
+
+.card-menu {
+  font-family: 'Passion One', cursive;
+  padding-left: 100px;
+}
+
+.card{
+  height: 550px;
+  width: 400px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.card img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.boton_mas {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.boton_mas button{
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  cursor: pointer;
+}
+
+.boton_mas i {
+  font-size: 25px;
+}
+
+footer {
+  font-family: 'Passion One', cursive;
+  color: black;
+  font-weight: bold;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-right: 100px;
+
+}
+
+.footer-column {
+  margin: 50px
+}
+
+.footer-logo {
+  display: flex;
+  width: 80px;
+  margin-bottom: 20px;
+
+}
+
+.bi {
+  width: 100px;
+  margin: 1px;
+  color: black;
+}
+
+.footer-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.footer-list li {
+  margin-bottom: 10px;
+
+}
+
+.footer-list li a {
+  color: #fff;
+  text-decoration: none;
+  color: black;
+
+}
+
+
+
+.footer-social-icons {
+  margin-top: 20px;
+}
+
+.footer-social-icons a {
+  color: #fff;
+  margin-right: 10px;
+}
+
+.fa {
+  font-size: 20px
+}
