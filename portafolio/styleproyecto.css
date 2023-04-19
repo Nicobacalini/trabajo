@@ -139,3 +139,91 @@ body {
     width: 35vw;
     margin-bottom: 2vh;
 }
+
+@media all and (min-width:0px) and (max-width: 720px)
+{
+
+    .navbar-list {
+        margin: 0;
+        padding: 0;
+        background-color: #222;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+    }
+
+/*// --------------------------------------------------- //*/
+
+.navbar-list{
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-list ul{
+    padding: 0;
+    margin-right: 2vh;
+}
+
+.navbar-list ul li{
+    margin: 0;
+}
+
+.liItemNavBar{
+    display: none;
+}
+
+.verde{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vh;
+}
+
+.ulNavBar{
+    margin-top: 2vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.cartas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cartas div{
+    align-self: center;
+    margin: 0;
+    padding: 0;
+}
+
+.cartas div div img{
+    width: 75vw;
+    height: 33vh;
+}
+
+.footer-container .container-logo{
+    display: none;
+}
+
+.footer-nav ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.footer-nav ul li{
+    margin: 0;
+    margin: 2vh 0;
+}
+
+}
