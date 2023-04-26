@@ -13,6 +13,7 @@ body {
 }
 
 .navbar-list {
+    padding-top: 2vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,6 +29,7 @@ body {
 
 .navbar-list ul li {
     margin: 0 10vh;
+    font-size: 3vh;
 }
 
 .navbar-list ul li a{
@@ -39,16 +41,32 @@ body {
     color: greenyellow;
 }
 
-.navbar-list img {
-    max-height: 10vh;
+.navbar-list i{
+    margin-top: -1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-list i p{
+    margin: 0;
+    margin-left: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vh;
+}
+
+.navbar-list i, .icon {
+    color: #eee;
+    font-size: 5vh;
     margin-left: 5vh;
     transition: transform 0.3s;
 }
 
-.navbar-list img:hover {
+.navbar-list i:hover {
     transform: scale(1.2);
 }
-
 
 .presentacion {
     display: flex;
@@ -63,7 +81,7 @@ body {
 .conteiner-one button {
     background-color: rgb(18, 209, 18);
     height: 8vh;
-    width: 12vw;
+    width: 15vw;
     border: none;
     border-radius: 1vh;
     color: #eee;
@@ -93,12 +111,13 @@ body {
 
 .container-proyectos h3 {
     font-size: 5vh;
+    margin-bottom: 5vh;
 }
 
 .container-proyectos button {
     background-color: rgb(18, 209, 18);
     height: 8vh;
-    width: 12vw;
+    width: 15vw;
     border: none;
     border-radius: 1vh;
     color: #eee;
@@ -194,6 +213,7 @@ body {
 }
 
 .icon-lenguajes{
+    margin-top: 5vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -254,8 +274,6 @@ body {
     background-color: #ccc;
 }
 
-
-
 .proyector-img{
     display: flex;
     flex-direction: column;
@@ -267,7 +285,6 @@ body {
 .proyector-img h3{
     border-bottom: 0.5vh solid greenyellow;
     font-family: 'Nunito', sans-serif;
-    margin-bottom: 2vh;
 }
 
 .imagenes-arriba img {
@@ -280,6 +297,7 @@ body {
 }
 
 .mail{
+    margin-top: 10vh;
     margin-bottom: 10vh;
     display: flex;
     flex-direction: column;
@@ -318,6 +336,7 @@ body {
 }
 
 .sendBTN{
+    margin-top: 5vh;
     color: #ccc;
     border-radius: 1vh;
     font-size: 3.5vh;
@@ -347,12 +366,12 @@ body {
 .fTA textarea{
     width: 30vw;
     height: 25vh;
+    font-size: 3vh;
 }
 
 
 .email{
     text-decoration: underline;
-
 }
 
 .footer-container{
@@ -383,10 +402,6 @@ body {
 
 .liItemNavBar a:hover{
     border-bottom: 0.5vh solid greenyellow;
-}
-
-.container-logo img{
-    width: 15vw;
 }
 
 .navbar-list{
@@ -516,6 +531,10 @@ body {
     height: 25vh;
 }
 
+.cards p{
+    display: none;
+}
+
 .imagenes-abajo, .imagenes-arriba{
     display: flex;
     flex-wrap: wrap;
@@ -534,6 +553,7 @@ body {
 
 .mail{
     margin: 0;
+    margin-top: 15vh;
     padding: 0;
     display: flex;
     flex-wrap: wrap;
@@ -541,6 +561,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    height: auto;
 }
 
 .mail h3{
@@ -549,7 +570,7 @@ body {
 
 .email{
     font-size: 5vh;
-    display: none;
+
 }
 
 .form{
@@ -559,6 +580,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
 .form *{
@@ -569,25 +591,34 @@ body {
     width: auto;
 }
 
-.fEmail div, .fEmail input{
+.fEmail div{
     font-size: 4vh;
+}
+
+.fEmail input{
+    font-size: 3vh;
 }
 
 .fEmail input, .fTitle input{
     width: 90vw;
 }
 
-.fTitle div, .fTitle input{
+.fTitle div{
     font-size: 4vh;
 }
 
-.fTA div, .fTA textarea{
+.fTitle input{
+    font-size: 3vh;
+}
+
+.fTA div{
     font-size: 4vh;
 }
 
 .fTA textarea{
+    font-size: 3vh;
     width: 90vw;
-    height: 15vh;
+    height: 25vh;
 }
 
 .sendBTN{
@@ -612,4 +643,13 @@ body {
 
 }
 
-
+.difuminador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: rgb(34, 34, 34, 0.9);
+    width: 100vw;
+    top: 0;
+    height: 100vh;
+}
