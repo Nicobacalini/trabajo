@@ -20,6 +20,33 @@ body {
     background-color: none;
 }
 
+.navbar-list i{
+    margin-top: -1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-list i p{
+    margin: 0;
+    margin-left: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vh;
+}
+
+.navbar-list i, .icon {
+    color: #eee;
+    font-size: 5vh;
+    margin-left: 5vh;
+    transition: transform 0.3s;
+}
+
+.navbar-list i:hover {
+    transform: scale(1.2);
+}
+
 .navbar-list ul {
     display: flex;
     list-style: none;
